@@ -16,6 +16,20 @@ public class Rol {
     public Rol(RolNombre rolNombre){
         this.rolNombre = rolNombre;
     }
-    @Const
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public RolNombre getRolNombre() {
+        return rolNombre;
+    }
+
+    public void setRolNombre(RolNombre rolNombre) {
+        this.rolNombre = rolNombre;
+    }
 }
