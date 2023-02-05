@@ -13,5 +13,9 @@ public class Rol {
     @NotNull
     @Enumerated(EnumType.STRING)
     private RolNombre rolNombre;
+    public Rol(RolNombre rolNombre){
+        this.rolNombre = rolNombre;
+    }
+    @Const
 
 }
